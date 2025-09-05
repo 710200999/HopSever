@@ -32,7 +32,9 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/710200999/HopSeve/re
 ------ Tab1
      local Tab1o = MakeTab({Name = "Sever"})     
 ------ Tab2
-     local Tab2o = MakeTab({Name = "Hop Sever Advanced"})     
+     local Tab2o = MakeTab({Name = "Hop Sever Advanced"})   
+------ Tab3
+     local Tab3o = MakeTab({Name = "Keyboard"})
 ------- BUTTON   1
     AddButton(Tab1o, {
      Name = "Hop Sever",
@@ -68,3 +70,4 @@ AddButton(Tab2o, {
     loadstring(game:HttpGet"https://raw.githubusercontent.com/710200999/HopSeve/refs/heads/main/ServerWithManyHacks.DuongVanHongSon")()
   end
   })
+
