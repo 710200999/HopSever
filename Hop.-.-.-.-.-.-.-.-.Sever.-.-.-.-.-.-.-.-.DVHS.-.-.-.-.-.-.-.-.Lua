@@ -72,7 +72,7 @@ AddButton(Tab2o, {
   })
 ------- BUTTON   3
 AddButton(Tab3o, {
-     Name = "Server With Many Hacks",
+     Name = "F9",
     Callback = function()
     loadstring(game:HttpGet"https://raw.githubusercontent.com/dzje92/Decryption-script/refs/heads/main/F9.lua")()
   end
@@ -83,4 +83,5 @@ AddButton(Tab3o, {
 stack traceback:
 	script.lua:1: in main chunk
 	[C]: in ? 
+
 ]]--
