@@ -3,7 +3,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/710200999/HopSeve/re
        local Window = MakeWindow({
          Hub = {
          Title = "Sever Hop", -- hack menu name
-         Animation = "guns.lol/hongson99/" 
+         Animation = "google.com" 
          },
         Key = {  -- key
         KeySystem = false, -- true/false | turn on getkey
@@ -85,3 +85,4 @@ stack traceback:
 	[C]: in ? 
 
 ]]--
+
