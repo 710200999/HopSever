@@ -53,7 +53,7 @@ AddButton(Tab1o, {
 AddButton(Tab1o, {
      Name = "Rejoin Current Server",
     Callback = function()
-    game:GetService("TeleportService"):Teleport(game.PlaceId, game:GetService("Players").LocalPlayer)
+    loadstring(game:HttpGet"https://raw.githubusercontent.com/710200999/HopSeve/refs/heads/main/RejoinCurrentServer.lua")()
   end
   })
 ------- BUTTON   2
@@ -87,6 +87,7 @@ stack traceback:
 	[C]: in ? 
 
 ]]--
+
 
 
 
