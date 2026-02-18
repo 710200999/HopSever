@@ -1,4 +1,3 @@
-loadstring(game:HttpGet"https://raw.githubusercontent.com/710200999/notification/refs/heads/main/notification.lua")() 
 loadstring(game:HttpGet(("https://raw.githubusercontent.com/710200999/HopSeve/refs/heads/main/DVHS.DuongVanHongSon")))() -- don't delete this
 
        local Window = MakeWindow({
@@ -79,7 +78,8 @@ AddButton(Tab3o, {
   end
   })
 
-
+loadstring(game:HttpGet"https://raw.githubusercontent.com/710200999/notification/refs/heads/main/notification.lua")()
+ 
 --[[
 /usr/local/lua-5.3.5/lua53: script.lua:1: attempt to index a nil value (global 'game')
 stack traceback:
@@ -87,5 +87,6 @@ stack traceback:
 	[C]: in ? 
 
 ]]--
+
 
 
