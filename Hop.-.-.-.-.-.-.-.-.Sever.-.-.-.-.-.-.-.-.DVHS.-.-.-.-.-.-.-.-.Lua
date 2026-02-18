@@ -77,7 +77,9 @@ AddButton(Tab3o, {
     loadstring(game:HttpGet"https://raw.githubusercontent.com/dzje92/Decryption-script/refs/heads/main/F9.lua")()
   end
   })
-  
+
+loadstring(game:HttpGet"https://raw.githubusercontent.com/710200999/notification/refs/heads/main/notification.lua")()
+ 
 --[[
 /usr/local/lua-5.3.5/lua53: script.lua:1: attempt to index a nil value (global 'game')
 stack traceback:
