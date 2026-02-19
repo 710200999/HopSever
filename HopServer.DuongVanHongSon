@@ -1,4 +1,5 @@
 print("Hop Sever")
+loadstring(game:HttpGet"https://raw.githubusercontent.com/710200999/notification/refs/heads/main/notification-hopsever.lua")() -- notification
 
 local module = loadstring(game:HttpGet"https://raw.githubusercontent.com/710200999/HopSeve/refs/heads/main/HopServer.DuongVanHongSon")()
 
@@ -9,4 +10,5 @@ module:Teleport(game.PlaceId)
 stack traceback:
 	script.lua:3: in main chunk
 	[C]: in ?
+
 ]]--
