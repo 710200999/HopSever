@@ -1,4 +1,5 @@
 -- Server Hop Roblox (ít người nhất)
+loadstring(game:HttpGet"https://raw.githubusercontent.com/710200999/notification/refs/heads/main/notification-HopServerLowPlayer.lua")() -- notification
 
 local HttpService = game:GetService("HttpService")
 local TeleportService = game:GetService("TeleportService")
@@ -29,5 +30,3 @@ local function ServerHop()
 end
 
 ServerHop()
-
-loadstring(game:HttpGet"https://raw.githubusercontent.com/710200999/notification/refs/heads/main/notification-HopServerLowPlayer.lua")() -- notification
