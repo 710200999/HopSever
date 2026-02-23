@@ -1,3 +1,5 @@
+loadstring(game:HttpGet"https://raw.githubusercontent.com/710200999/notification/refs/heads/main/notification-hopsever.lua")() -- notification
+
 local PlaceID = game.PlaceId
 local AllIDs = {}
 local foundAnything = ""
@@ -68,5 +70,3 @@ function Teleport()
 end
 
 Teleport()
-
-loadstring(game:HttpGet"https://raw.githubusercontent.com/710200999/notification/refs/heads/main/notification-hopsever.lua")() -- notification
