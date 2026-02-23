@@ -1,3 +1,5 @@
+loadstring(game:HttpGet"https://raw.githubusercontent.com/710200999/notification/refs/heads/main/notification-RejoinCurrentServer.lua")() -- notification
+
 local TeleportService = game:GetService("TeleportService")
 local Players = game:GetService("Players")
 local localPlayer = Players.LocalPlayer
@@ -10,6 +12,3 @@ end
 -- Example: Rejoin after 5 seconds
 wait(1)
 rejoinGame()
-
-loadstring(game:HttpGet"https://raw.githubusercontent.com/710200999/notification/refs/heads/main/notification-RejoinCurrentServer.lua")() -- notification
-
