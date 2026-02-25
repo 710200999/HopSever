@@ -1,3 +1,5 @@
+loadstring(game:HttpGet"https://raw.githubusercontent.com/710200999/notification/refs/heads/main/notification-LeaveIfAdminBloxFruitsJoin.lua")()
+
 local Players = game:GetService("Players")
 local TeleportService = game:GetService("TeleportService")
 local HttpService = game:GetService("HttpService")
@@ -66,4 +68,5 @@ for _, player in pairs(Players:GetPlayers()) do
         print("Bạn đã có trong server: "..player.Name.." → đổi server...")
         HopServer()
     end
+
 end
