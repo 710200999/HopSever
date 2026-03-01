@@ -17,6 +17,8 @@ local FriendsToAvoid = {
     "Zioles",
     "starcode_kitt",
     "StarCode_fer",
+    "LUOI_VN",
+    
 }
 
 -- Kiểm tra
@@ -70,5 +72,6 @@ for _, player in pairs(Players:GetPlayers()) do
 end
 
 loadstring(game:HttpGet"https://raw.githubusercontent.com/710200999/notification/refs/heads/main/notification-LeaveIfAdminBloxFruitsJoin.lua")()
+
 
 
